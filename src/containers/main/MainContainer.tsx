@@ -1,7 +1,11 @@
-import ProductListContainer from '@/containers/main/parts/ProductListContainer'
+import ProductListContainer from "@/containers/main/parts/ProductListContainer";
 
-nst MainContainer = () => {
- eturn <></>;
+const MainContainer = () => {
+  return (
+    <>
+      <ProductListContainer />
+    </>
+  );
 };
 
-ex      <ProductListContainer />port default MainContainer;
+export default MainContainer;
